@@ -401,7 +401,6 @@ if (GLFW_INSTALL)
             DESTINATION "${GLFW_CONFIG_PATH}")
 
     install(EXPORT glfwTargets FILE glfw3Targets.cmake
-            EXPORT_LINK_INTERFACE_LIBRARIES
             DESTINATION "${GLFW_CONFIG_PATH}")
     install(FILES "${GLFW_BINARY_DIR}/src/glfw3.pc"
             DESTINATION "lib${LIB_SUFFIX}/pkgconfig")
